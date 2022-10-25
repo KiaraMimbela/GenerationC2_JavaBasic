@@ -3,6 +3,7 @@ package cl.generation.f20221024;
 public class EjercicioConvertirG5 {
 
 	public static void main(String[] args) {
+		
 		int num = 56;
         float num2 = num;  //1
         System.out.println(num2);

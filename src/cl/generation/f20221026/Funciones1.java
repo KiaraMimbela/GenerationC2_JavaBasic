@@ -30,6 +30,8 @@ public class Funciones1 {
 		
 		String nombreCompleto = obtenerNombreCompleto("Naomi", "Mimbela", "Vasquez");
 		System.out.println("Mi nombre completo es: " + nombreCompleto);
+		
+		llamadoAOtroMetodo();
 	}
 
 	// definicion o estructura de un metodo
@@ -81,5 +83,12 @@ public class Funciones1 {
 		String nombreCompleto = nombre + " " + apePaterno + " " + apeMaterno;
 		return nombreCompleto;//retornamos el contenido de la varibale
 	}
-
+	
+	
+	//metdo que llama a otro metodo
+	
+	public static void llamadoAOtroMetodo() {
+		System.out.println("Llamada a otro metodo desde un metodos");
+		metodo5(123, 23.4F);
+	}
 }

@@ -56,6 +56,16 @@ public class ArregloDinamico {
 			System.out.println(integrante);
 			// imprimir la nueva var para saber los elementos
 		}
+		ArrayList<Integer> numeros = new ArrayList<Integer>();
+		numeros.add(2);
+		numeros.add(3);
+		numeros.add(4);
+		numeros.add(5);
+		
+		for(Integer numero :numeros) {
+			System.out.println(numero);
+		}
+
 
 	}
 

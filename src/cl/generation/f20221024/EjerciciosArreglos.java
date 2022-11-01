@@ -43,8 +43,8 @@ public class EjerciciosArreglos {
 		for(int i = 0; i < arreglo.length; i++) {
 			suma = suma + arreglo[i];
 		}
-		//System.out.print(suma);
-		//System.out.print(" ");
+		System.out.println(suma);
+		//System.out.print//imprime todo en una linea
 		float prom = 0;
 		prom = suma / arreglo.length;
 		System.out.println(prom);
